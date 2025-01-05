@@ -58,7 +58,7 @@ public class MyProfileView extends VerticalLayout implements BeforeEnterObserver
         this.userId = (String) VaadinSession.getCurrent().getAttribute("userId");
             if (userId != null) {  
             // Aquí buscamos el juego usando el ID  
-            User user = userService.findUserById(userId);   
+            User user = userService.findUserById(userId);
             List<Game> game = gameService.findGameByUserId(userId);  
 
             if (user != null) {  

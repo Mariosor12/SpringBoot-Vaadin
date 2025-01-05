@@ -12,6 +12,7 @@ import com.vaadin.flow.router.BeforeEnterObserver;
 
 import java.util.List;
 
+import com.app.games.model.CustomListItem;
 import com.app.games.model.Game;  
 import com.app.games.service.GameService;  
 import com.app.games.model.ListReview;
@@ -48,8 +49,8 @@ public class GameDetailView extends VerticalLayout implements BeforeEnterObserve
         String gameId = event.getRouteParameters().get("gameId").orElse(null);  
         
         if (gameId != null) {  
-            Game game = gameService.findGameById(gameId);  
-            List<ListReview> reviews = listService.findReviewByGameId(gameId);   
+            Game game = gameService.findGameById(gameId);
+            List<CustomListItem> reviews = listService.findReviewsByUserId(gameId);   
             List<User> users = listService.findReviewByUserId(gameId);  
             
             if (game != null) {  
@@ -72,7 +73,7 @@ public class GameDetailView extends VerticalLayout implements BeforeEnterObserve
                 if (users != null && reviews != null && !reviews.isEmpty() && !users.isEmpty()) {   
                     for (int i = 0; i < reviews.size(); i++) {  
                         User user = users.get(i);  
-                        ListReview review = reviews.get(i);  
+                        CustomListItem review = reviews.get(i);  
                         
                         HorizontalLayout commentLayout = new HorizontalLayout();   
                         commentLayout.setAlignItems(Alignment.CENTER); // Alinear los elementos verticalmente al centro  
