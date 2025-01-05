@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            font-family: Arial, sans-serif; /* Establece una fuente general */
+            display: flex;
+            flex-direction: column;
+        }
+
+        #outlet {
+            flex: 1;
+            background-color: var(--lumo-contrast-5pct);
+        }
+
+        header {
+            background-color: #87CEEB; /* Azul celeste */
+            color: white; /* Color del texto */
+            text-align: center; /* Centrar el texto */
+            padding: 20px; /* Espaciado interno */
+            flex-shrink: 0; /* Evitar que el header se reduzca */
+        }
+
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        footer {
+            background-color: #87CEEB; /* Azul celeste */
+            color: black; /* Color del texto */
+            text-align: center; /* Centrar el texto */
+            padding: 10px; /* Espaciado interno */
+            flex-shrink: 0; /* Evitar que el footer se reduzca */
+        }
+
+        .games-library-link a {
+            text-decoration: none;
+            color: white;
+            cursor: pointer; /* Cambia el puntero a mano al pasar el ratón */
+        }
+
+        .my-profile-link {
+            color: white;
+            text-decoration: none;
+            cursor: pointer;
+            float: right;
+            line-height: 20px;
+        }
+
+        .my-profile-link:hover {
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="outlet"></div>
+    <footer id="footer">
+        <p>2024 Product Licenses.</p>
+    </footer>
+</body>
+</html>

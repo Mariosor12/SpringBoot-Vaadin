@@ -1,0 +1,256 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "nombre": "Juan",
+      "apellido": "Pérez",
+      "correo": "juan.perez@example.com",
+      "nombreUsuario": "juanperez",
+      "contrasena": "123456"
+    },
+    {
+      "id": "2",
+      "nombre": "Ana",
+      "apellido": "García",
+      "correo": "ana.garcia@example.com",
+      "nombreUsuario": "anagarcia",
+      "contrasena": "abcdef"
+    },
+    {
+      "id": "3",
+      "nombre": "franco",
+      "apellido": "perez",
+      "correo": "franco@gmail.com",
+      "nombreUsuario": "francop",
+      "contrasena": "franco"
+    }
+  ],
+  "games": [
+    {
+      "id": "1",
+      "nombre": "Call of Duty: Modern Warfare",
+      "tipo": "Shooter",
+      "empresaDesarrolladora": "Infinity Ward",
+      "plataformas": [
+        "PC",
+        "PS4",
+        "Xbox One"
+      ],
+      "cantidadJugadoresLocal": "1-2",
+      "fechaSalida": "2019-10-25",
+      "coOpLocal": true,
+      "coOpOnline": true
+    },
+    {
+      "id": "2",
+      "nombre": "The Legend of Zelda: Breath of the Wild",
+      "tipo": "Action-Adventure",
+      "empresaDesarrolladora": "Nintendo",
+      "plataformas": [
+        "Nintendo Switch",
+        "Wii U"
+      ],
+      "cantidadJugadoresLocal": "1",
+      "fechaSalida": "2017-03-03",
+      "coOpLocal": false,
+      "coOpOnline": false
+    },
+    {
+      "id": "3",
+      "nombre": "Spider-Man 2",
+      "tipo": "action-adventure",
+      "empresaDesarrolladora": "Insomniac Games",
+      "plataformas": [
+        "PS4",
+        "PS5"
+      ],
+      "cantidadJugadoresLocal": "1",
+      "fechaSalida": "2023-10-20",
+      "coOpLocal": false,
+      "coOpOnline": false
+    },
+    {
+      "id": "4",
+      "nombre": "Minecraft",
+      "tipo": "Sandbox",
+      "empresaDesarrolladora": "Mojang Studios",
+      "plataformas": [
+        "PC",
+        "PS4",
+        "Xbox One",
+        "Nintendo Switch",
+        "Mobile"
+      ],
+      "cantidadJugadoresLocal": "1-4",
+      "fechaSalida": "2011-11-18",
+      "coOpLocal": true,
+      "coOpOnline": true
+    },
+    {
+      "id": "5",
+      "nombre": "Fortnite",
+      "tipo": "Battle Royale",
+      "empresaDesarrolladora": "Epic Games",
+      "plataformas": [
+        "PC",
+        "PS4",
+        "Xbox One",
+        "Nintendo Switch",
+        "Mobile"
+      ],
+      "cantidadJugadoresLocal": "1",
+      "fechaSalida": "2017-07-25",
+      "coOpLocal": false,
+      "coOpOnline": true
+    },
+    {
+      "id": "6",
+      "nombre": "Super Mario Odyssey",
+      "tipo": "Platform",
+      "empresaDesarrolladora": "Nintendo",
+      "plataformas": [
+        "Nintendo Switch"
+      ],
+      "cantidadJugadoresLocal": "1-2",
+      "fechaSalida": "2017-10-27",
+      "coOpLocal": true,
+      "coOpOnline": false
+    },
+    {
+      "id": "7",
+      "nombre": "Mortal Kombat11",
+      "tipo": "Fighting",
+      "empresaDesarrolladora": "NetherRealm Studios",
+      "plataformas": [
+        "PC",
+        "PS4",
+        "Xbox One",
+        "Nintendo Switch"
+      ],
+      "cantidadJugadoresLocal": "1-2",
+      "fechaSalida": "2019-04-23",
+      "coOpLocal": true,
+      "coOpOnline": true
+    },
+    {
+      "id": "8",
+      "nombre": "Apex Legends",
+      "tipo": "Battle Royale",
+      "empresaDesarrolladora": "Respawn Entertainment",
+      "plataformas": [
+        "PC",
+        "PS4",
+        "Xbox One",
+        "Nintendo Switch"
+      ],
+      "cantidadJugadoresLocal": "1",
+      "fechaSalida": "2019-02-04",
+      "coOpLocal": false,
+      "coOpOnline": true
+    },
+    {
+      "id": "9",
+      "nombre": "Stardew Valley",
+      "tipo": "Simulation",
+      "empresaDesarrolladora": "ConcernedApe",
+      "plataformas": [
+        "PC",
+        "PS4",
+        "Xbox One",
+        "Nintendo Switch",
+        "Mobile"
+      ],
+      "cantidadJugadoresLocal": "1-4",
+      "fechaSalida": "2016-02-26",
+      "coOpLocal": true,
+      "coOpOnline": true
+    },
+    {
+      "id": "10",
+      "nombre": "Halo Infinite",
+      "tipo": "Shooter",
+      "empresaDesarrolladora": "343 Industries",
+      "plataformas": [
+        "PC",
+        "Xbox Series X/S",
+        "Xbox One"
+      ],
+      "cantidadJugadoresLocal": "1",
+      "fechaSalida": "2021-12-08",
+      "coOpLocal": true,
+      "coOpOnline": true
+    },
+    {
+      "id": "11",
+      "nombre": "Spider-Man",
+      "tipo": "Action",
+      "empresaDesarrolladora": "Insomniac",
+      "plataformas": [
+        "PC",
+        " PS4"
+      ],
+      "cantidadJugadoresLocal": "1",
+      "fechaSalida": "2018-10-07",
+      "coOpLocal": false,
+      "coOpOnline": false
+    }
+  ],
+  "list": [
+    {
+      "id": "1",
+      "gameId": 1,
+      "userId": 1,
+      "fecha": "15-09-2023",
+      "puntuacion": 8,
+      "comentario": "I really liked the design and the story."
+    },
+    {
+      "id": "2",
+      "gameId": 2,
+      "userId": 1,
+      "fecha": "16-09-2023",
+      "puntuacion": 9,
+      "comentario": "Excellent game."
+    },
+    {
+      "id": "3",
+      "gameId": 3,
+      "userId": 1,
+      "fecha": "17-09-2023",
+      "puntuacion": 7,
+      "comentario": "Very fun, although a bit repetitive."
+    },
+    {
+      "id": "4",
+      "gameId": 4,
+      "userId": 2,
+      "fecha": "18-09-2023",
+      "puntuacion": 6,
+      "comentario": "It's not what I expected, but it has its charm."
+    },
+    {
+      "id": "5",
+      "gameId": 5,
+      "userId": 2,
+      "fecha": "10-09-2023",
+      "puntuacion": 8,
+      "comentario": "A good game in its genre, but it lacks content."
+    },
+    {
+      "id": "6",
+      "gameId": 6,
+      "userId": 2,
+      "fecha": "20-09-2023",
+      "puntuacion": 10,
+      "comentario": "Excellent game, it hooked me from the start."
+    },
+    {
+      "id": "7",
+      "gameId": 11,
+      "userId": 3,
+      "fecha": "2024-10-21",
+      "puntuacion": 9,
+      "comentario": ""
+    }
+  ]
+}

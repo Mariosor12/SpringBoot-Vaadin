@@ -1,0 +1,24 @@
+/* frontend/styles/styles.css */  
+.input-group {  
+    display: flex;  
+    flex-direction: row; /* Colocar en fila por defecto en computadoras */  
+    justify-content: space-between; /* Espacio entre los campos */  
+    margin-bottom: 10px; /* Espacio entre cada grupo de entrada */  
+}  
+
+.button-group {  
+    display: flex;  
+    flex-direction: row; /* Colocar en fila por defecto en computadoras */  
+    margin-bottom: 10px; /* Espacio entre cada grupo de entrada */  
+}
+
+/* Para pantallas más pequeñas */  
+@media (max-width: 600px) {  
+    .input-group {  
+        flex-direction: column; /* Colocar en columna en móviles */  
+    }  
+    .button-group {   
+        flex-direction: column; 
+    }
+}
+
