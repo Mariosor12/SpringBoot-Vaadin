@@ -1,6 +1,6 @@
-# Games-App  
+# SpringBoot-Vaadin
 
-¡Bienvenido a Games-App! 🎮  
+¡Bienvenido a SpringBoot-Vaadin! 🎮  
 
 Games-App es una aplicación diseñada para los amantes de los videojuegos. Permite a los usuarios ver una lista de juegos, agregar nuevos títulos y gestionar una lista de favoritos. Esta aplicación utiliza Java con Spring Boot en el backend y Vaadin en el frontend para una experiencia de usuario fluida y moderna.  
 
